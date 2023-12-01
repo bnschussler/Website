@@ -1,3 +1,7 @@
+html{
+	overscroll-behavior: none;
+}
+
 .column{
   display: flex;
   flex-flow: column wrap;
@@ -65,8 +69,8 @@ a img{
 	transition: transform .0625s;
 	transform-origin: 50% -1%;
 	display: flex;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 300px;
+	max-height: 300px;
 	margin: 0px 20px 20px 20px;
 	overflow: hidden;
 }
