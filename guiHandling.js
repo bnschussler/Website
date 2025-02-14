@@ -30,7 +30,7 @@ window.addEventListener("scroll",function(){
 				  (scrollY-document.documentElement.scrollTop)/bb.height*height];
 	scrollX=document.documentElement.scrollLeft;
 	scrollY=document.documentElement.scrollTop;
-	console.log(scrollPixels);
+	//console.log(scrollPixels);
 	Array.from(document.querySelectorAll("body > div")).forEach(div => {
 		bounds=div.getBoundingClientRect();
 		bounds=[Math.max(Math.ceil((bounds.top - bb.top)/bb.height*height),0),
