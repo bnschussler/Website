@@ -1,6 +1,6 @@
 background=document.getElementById("background");
-background.style.height=document.documentElement.scrollHeight+"px";//(document.documentElement.scrollHeight+window.innerHeight)/2+"px";
-
+background.style.height="0px";//trigger a reflow to calcualte the minimum background height
+background.style.height=document.documentElement.scrollHeight+"px";
 bb = canvas.getBoundingClientRect(); 
 
 document.addEventListener('scroll',(event)=>{
